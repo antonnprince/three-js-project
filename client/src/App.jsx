@@ -1,16 +1,16 @@
-import Canvas from "./canvas"
-import Customizer from "./pages/Customizer"
-import Home from "./pages/Home"
+import {Canvas} from "@react-three/fiber"
+
+import Model from "./components/Model"
 
 
 function App() {
 
  return(
-  <main className="app transition-all ease-in">
-    <Home />
-    <Canvas />
-    <Customizer />
-  </main>
+  <div style={{height: '100vh'}}>
+    <Canvas camera={{ position: [10, 10, 10], fov: 75 }} >
+        <Model />
+    </Canvas>
+  </div>
  )
 }
 
