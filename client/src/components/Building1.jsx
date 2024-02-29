@@ -18,6 +18,7 @@ const Model=(props)=> {
      snap.color, 0.25,delta)
     }
   )
+  
   return (
     <group {...props} dispose={null}>
       <group scale={0.025}>

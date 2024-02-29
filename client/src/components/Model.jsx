@@ -11,12 +11,14 @@ const Model = () => {
 
   return (
       <>
-            <OrbitControls />
+            <OrbitControls 
+            />
+
             <ambientLight intensity={2} />
             <directionalLight position={[-5,5,5]}  castShadow />  
               
               <Building 
-              scale={[0.25,0.25,0.25]} 
+              scale={[0.5,0.5,0.5]} 
               position={[1, -3, 0]}  
               />
       </>
