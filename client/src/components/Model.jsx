@@ -18,7 +18,7 @@ const Model = () => {
             <directionalLight position={[-5,5,5]}  castShadow />  
               
               <Building 
-              scale={[0.5,0.5,0.5]} 
+              scale={[0.25,0.25,0.25]} 
               position={[1, -3, 0]}  
               />
       </>
