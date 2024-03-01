@@ -16,7 +16,7 @@ const Model = () => {
             
 
             <ambientLight intensity={0.5} />
-            <directionalLight position={[-5,5,5]}  castShadow />  
+            <directionalLight position={[-5,5,5]} intensity={1} castShadow />  
             
             <Circle   position={[-1, 3,1.75]} scale={[0.4,0.4,0.4]}/>
             <Circle   position={[3, 5,1.75]} scale={[0.4,0.4,0.4]}/> 
