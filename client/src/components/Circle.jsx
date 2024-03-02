@@ -1,14 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
-import ShowImage from './showImage'
-import * as THREE from 'three'
+import showImage from './showImage'
 
 const Circle = (props) => {
-
-    const [content,showContent] = useState(false) 
-
-
-
   return (
     <>
     
@@ -20,14 +14,13 @@ const Circle = (props) => {
     e.object.scale.set(0.4,0.4,0.4)
         }}
 
-      onClick={() => window.open('http://stackoverflow.com')}>
+      onClick={() => window.open(props.url)}>
         
         <circleBufferGeometry args={[1, 32]} />
         <meshBasicMaterial transparent opacity={0.7} color={0xffffff}/>
       
       </mesh>
-      <ShowImage />
-      
+
      </>
   )
 }
