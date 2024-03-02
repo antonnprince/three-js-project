@@ -21,6 +21,7 @@ const Model = () => {
             <Circle   position={[-1, 3,1.75]} scale={[0.4,0.4,0.4]}/>
             <Circle   position={[3, 5,1.75]} scale={[0.4,0.4,0.4]}/> 
             <Circle   position={[3, 1,1.75]} scale={[0.4,0.4,0.4]}/> 
+
               <Building 
               scale={[0.25,0.25,0.25]} 
               position={[1, -3, 0]}  
